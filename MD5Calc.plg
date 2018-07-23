@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MD5Calc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x418 /fo"Release/MD5Calc.res" /d "NDEBUG" /d "_AFXDLL" "D:\MD5Calc\MD5Calc.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP12EE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MD5Calc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MD5Calc\md5.cpp"
+"D:\MD5Calc\MD5Calc.cpp"
+"D:\MD5Calc\MD5CalcDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP12EE.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP12EF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MD5Calc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\MD5Calc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP12EF.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/MD5Calc.pdb" /machine:I386 /out:"Release/MD5Calc.exe"  .\Release\md5.obj .\Release\MD5Calc.obj .\Release\MD5CalcDlg.obj .\Release\StdAfx.obj .\Release\MD5Calc.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+md5.cpp
+MD5Calc.cpp
+MD5CalcDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MD5Calc.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: MD5Calc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x418 /fo"Debug/MD5Calc.res" /d "_DEBUG" /d "_AFXDLL" "D:\MD5Calc\MD5Calc.rc"" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP158F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MD5Calc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MD5Calc\md5.cpp"
+"D:\MD5Calc\MD5Calc.cpp"
+"D:\MD5Calc\MD5CalcDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP158F.tmp" 
+Creating temporary file "C:\Users\Mihai\AppData\Local\Temp\RSP1590.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/MD5Calc.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MD5Calc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mihai\AppData\Local\Temp\RSP1590.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MD5Calc.pdb" /debug /machine:I386 /out:"Debug/MD5Calc.exe" /pdbtype:sept  .\Debug\md5.obj .\Debug\MD5Calc.obj .\Debug\MD5CalcDlg.obj .\Debug\StdAfx.obj .\Debug\MD5Calc.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+md5.cpp
+MD5Calc.cpp
+MD5CalcDlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/MD5Calc.bsc"  .\Debug\StdAfx.sbr .\Debug\md5.sbr .\Debug\MD5Calc.sbr .\Debug\MD5CalcDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+MD5Calc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
